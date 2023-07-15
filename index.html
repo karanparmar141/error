@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-900">
+    <section class="text-gray-400 bg-gray-900  relative">
+        <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+            <div class="w-6/12 flex flex-col mx-auto">
+                <form id="form">
+                    <h2 class="text-white text-2xl mb-1 text-center font-medium uppercase mx-auto mb-8">age is between 18-30 allow</h2>
+                    <div class="relative mb-4">
+                        <h2 id="number" class="text-red-400 capitalize"></h2>
+                        <input type="number" id="num" placeholder="Enter The age"
+                            class="w-full bg-transparent text-white rounded border-b-2 border-white focus:border-blue-500 focus:ring-2 focus:ring-blue-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                    </div>
+                    <input type="submit" class="text-white bg-blue-500 border-0 mt-8 py-2 px-6 focus:outline-none hover:bg-transparent hover:border-2 hover:border-white rounded text-lg duration-500">
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="index.js"></script>
+
+</html>
